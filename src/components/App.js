@@ -14,7 +14,7 @@ const App = () => {
     <div>
         <h1>Sum Calculator</h1>
         <input type="number" value={value} onChange={handleChange}></input>
-        <div>Sum: {sum}</div>
+        <p>Sum: {sum}</p>
     </div>
   )
 }
